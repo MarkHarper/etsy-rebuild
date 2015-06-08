@@ -1,0 +1,7 @@
+<ul class="listings">
+<% m.listings.forEach(function (listing) { %>
+  <img class="listing-img" src="<%- listing.imgUrl %>" />
+  <h2 class="listing-title"><a href="<%- listing.externalUrl %>"><%- listing.title %></a></h2>
+  <div class="lisstin-description"><%- listing.description %></div> 
+<% }) %>
+</ul>
