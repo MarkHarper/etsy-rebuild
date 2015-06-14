@@ -12,5 +12,5 @@ Technologies Used
 <li>Susy Grid System</li>
 
 What I completed
--Adding a search function to call the Etsy API for specific listings
--Organizing listings into a grid of cards using the Susy Grid system
+<li>Adding a search function to call the Etsy API for specific listings</li>
+<li>Organizing listings into a grid of cards using the Susy Grid system</li>
