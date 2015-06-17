@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 1em; }
+
+body {
+  background-color: #FFF;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em; }
+
+h2 {
+  font-size: 1.953em; }
+
+h3 {
+  font-size: 1.563em; }
+
+h4 {
+  font-size: 1.25em; }
+
+small, .font_small {
+  font-size: 0.8em; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/* Changing Susy default global settings */
+/* Makes border-box properties */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background-color: HSLA(60, 17%, 95%, 1);
+  font-size: 16px; }
+
+.listings {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .listings:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .listings *, .listings *:before, .listings *:after {
+    box-sizing: border-box; }
+
+li {
+  width: 32.20339%;
+  float: left;
+  background-color: HSLA(0, 0%, 100%, 1);
+  height: 30%;
+  width: 26.73611111111%; }
+  li:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  li:nth-child(3n + 2) {
+    margin-left: 33.89831%;
+    margin-right: -100%;
+    clear: none; }
+  li:nth-child(3n + 3) {
+    margin-left: 67.79661%;
+    margin-right: -100%;
+    clear: none; }
+  li *, li *:before, li *:after {
+    box-sizing: border-box; }
+
+.listing-container {
+  height: 84.137931034%;
+  width: 100%; }
+
+.listing-img {
+  height: 100%;
+  width: 100%; }
+
+.listing-header {
+  width: 100%; }
+
+.listing-title {
+  text-decoration: none;
+  color: HSLA(0, 0%, 20%, 1);
+  font-size: .8215em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-family: "Arial","Helvetica",sans-serif; }
+
+.listing-copy {
+  background-color: HSLA(60, 17%, 98%, 1);
+  border: 1px solid HSLA(0, 0%, 92%, 1);
+  font-family: "Arial","Helvetica",sans-serif;
+  color: HSLA(0, 0%, 53%, 1);
+  font-size: 0.8215em; }
